@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 200px; display: flex;flex-flow: column; height: 200px; justify-content: space-between; margin: 1rem;">
+        <h3 style="text-align: center;">XJTU Login Helper</h3>
+        <p id="msg_box" style="height: 4rem;line-height: 1.2rem;">
+输入信息并点击保存，即可自动填充账号密码并跳转。<br/>
+请将密码修改至强密码后使用
+        </p>
+        <div style="display: flex;">
+            <label style="flex-shrink: 0;">账号：</label>
+            <input type="text" id="userId">
+        </div>
+        <div style="display: flex; position: relative;">
+            <label style="flex-shrink: 0;">密码：</label>
+            <input type="password" id="userPassword"> 
+            <span id="passwordEye" class="invisible eye"></span>
+        </div>
+        <button id="save">保存</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
