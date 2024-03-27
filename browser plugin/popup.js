@@ -26,7 +26,7 @@ save.addEventListener('click',function(){
         chrome.storage.local.get(['userId','userPassword']).then((result)=>{
             msgbox.innerText = '保存成功\n若要清除记录请保存空密码'
             setTimeout(()=>{
-                msgbox.innerText = '输入信息并保存后即可自动登录\n请修改至强密码后使用\n安全风险概不负责'
+                msgbox.innerText = '输入信息并点击保存，即可自动填充账号密码并跳转。\n请将密码修改至强密码后使用'
             },3000)
         })
     })
