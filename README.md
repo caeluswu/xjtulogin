@@ -8,7 +8,9 @@
 
 ## 油猴脚本
 
-弹出菜单-添加新脚本-已安装脚本，将`/tampermonkey script/XJTULoginHelper.js`文件拖进页面以安装脚本。安装完成之后需要手动填充账号信息，找到
+首先下载Tampermonkey（篡改猴）插件。
+
+弹出菜单-添加新脚本-已安装脚本，将`/tampermonkey script/XJTULoginHelper.js`文件拖进页面以安装脚本。安装完成之后需要手动填充账号信息，找到以下两行
 ```
     const userId = '';
     const userPassword = '';
